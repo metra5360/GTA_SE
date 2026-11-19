@@ -1,0 +1,7 @@
+html,body{margin:0;height:100%;overflow:hidden;background:#cfe3f1;font:13px system-ui,sans-serif}
+#app{position:fixed;inset:0}
+#ui{position:fixed;top:12px;left:12px;width:210px;padding:10px;border-radius:12px;background:rgba(20,24,30,.62);color:#fff;backdrop-filter:blur(8px);display:flex;flex-direction:column;gap:8px}
+.row{display:flex;gap:4px;flex-wrap:wrap}button{flex:1;border:0;border-radius:8px;padding:6px 8px;background:rgba(255,255,255,.14);color:#fff;cursor:pointer}
+button:hover{background:rgba(255,255,255,.28)}button.on{background:#3b82f6}small{opacity:.65}
+#hide{position:fixed;top:12px;right:12px;flex:none;width:36px;height:36px;background:rgba(20,24,30,.62);font-size:16px}
+body.nui #ui{display:none}
